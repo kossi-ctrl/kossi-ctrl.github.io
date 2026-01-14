@@ -60,11 +60,7 @@ article h3 {
   font-size: 0.9em;
 }
 
-.skills li:hover {
-  transform: translateY(-8px) rotate(-5deg); 
-  background: #16a085;
-  cursor: pointer;
-}
+
 
 a {
   display: inline-block;
