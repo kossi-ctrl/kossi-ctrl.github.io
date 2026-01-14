@@ -59,6 +59,12 @@ article h3 {
   border-radius: 6px;
   font-size: 0.9em;
 }
+.skills li: hover {
+  transform: translateY(-5px); 
+  background: #16a085; 
+  cursor: pointer; 
+  
+}
 
 a {
   display: inline-block;
