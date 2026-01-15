@@ -1,112 +1,105 @@
-  # kossi-ZANGBE
-Université de Tours-Centre d'Études Supérieures de la Renaissance
+# 👋 Kossi ZANGBE  
 
-Étudiant en **Humanités Numériques – Informatique**
+**Étudiant en Humanités Numériques – Informatique**  
+Université de Tours — Centre d’Études Supérieures de la Renaissance  
 
-Création de sites web, programmation, modélisation et bases de données
+🌐 *Création de sites web, programmation, modélisation et bases de données*
 
 ---
-# Compétences
-    -HTML / CSS
-    -JavaScript
-    -Python
-    -Git & GitHub
-    -XML TEI / MEI
-    -PostgreSQL / SQL  
+
+## 🎯 À propos de moi  
+
+Étudiant passionné par les humanités numériques et l’informatique, je travaille à la croisée :  
+- de l’analyse des textes,  
+- du développement web,  
+- et de la gestion de données.  
+
+Mes projets combinent souvent **programmation**, **structuration des données** et **visualisation**.
+
 ---
- 
-  # Projets
-    
-  ### Projet1:  Encodage TEI:
-     
-  **Objectif** :Encoder le texte Tartuffe de Molière
-      
-  **Problématique** :
-       
-     -Encoder les métadonnées
-     
-     -Extraction et encodage de texte de base
-     
-     -Comparaison et encodage des variantes 
-     
-   **Lien vers le dépôt :**  
-       https://github.com/kossi-ctrl/Encodage_tartuffe.xml
 
+## 🛠️ Compétences  
 
-     
-   ### Projet2: Site Cuisine-HTML/CSS 
+- **Langages Web :** HTML • CSS • JavaScript  
+- **Programmation :** Python  
+- **Données :** PostgreSQL • SQL • JSON  
+- **Encodage :** XML • TEI • MEI  
+- **Outils :** Git & GitHub • VS Code  
 
-      Objectif : Création d’un site web sur un thème libre.
-      
-      Problématique :
-      
-        Utilisation des langages HTML et CSS pour concevoir un site web statique
-        avec Phoenix Code ou Visual Studio Code.
-      
-  **Lien vers le dépôt :**  
-       https://github.com/kossi-ctrl/site_cuisine_project
+---
 
-   
-  ### Projet3 Site Cuisine – TP JavaScript
-  
-      Objectif : Amélioration du site cuisine.
-      
-      Problématique :
-      
-        Ajout de fonctionnalités JavaScript au site HTML/CSS existant.
-        
-   **Lien vers le dépôt :** 
-      https://github.com/kossi-ctrl/TPJavaScript_site_cuisine
+## 📂 Projets
 
-  
-  ### Projet4 Ashesi Library
-  
-      Objectif : Création d’une bibliothèque fictive.
-    
-        Problématique :
-        
-        Exploitation d’un fichier JSON et intégration via JavaScript.
-        
-  **Lien vers le dépôt :** 
-      https://github.com/kossi-ctrl/ashesi_library_project
-   
+### 📜 Projet 1 — Encodage TEI : *Tartuffe* (Molière)  
 
-  ### projet5 TP_musee
-  
-      Objectif : Modélisation et création de bases de données.
+🎯 **Objectif :**  
+Encoder le texte de *Tartuffe* en TEI.
 
-      Problématique:
-      
-        -Analyse de données CSV
-        
-        -Proposition de modélisation
-        
-        -Export SQL et intégration PostgreSQL
-        
-        -Requêtes SQL
-        
-   **Lien vers le dépôt :** 
-      https://github.com/kossi-ctrl/TP_musee
-       
-     
-  ### Projet6 Wired_Viz
-  
-      Objectif : Visualisation de données.
-      
-      Problématique :
-      
-       Manipulation de fichiers JSON et génération dynamique via JavaScript.
-       
-  **Lien vers le dépôt :** 
-      https://github.com/kossi-ctrl/Wired_viz
-   
-  ---
-  
-  # Contact 
-    
-  **Email:** wisdom77toffa@gmail.com
-  **Email:** universitaire :kossi.zangbe@etu.univ-tours.fr
+📌 **Axes de travail :**
+- Encodage des métadonnées  
+- Extraction et structuration du texte  
+- Comparaison et encodage des variantes  
 
+🔗 **Lien vers le projet :**  
+👉 https://github.com/kossi-ctrl/Encodage_tartuffe.xml  
 
-  © 2026 – **Kossi ZANGBE**
+---
 
+### 🍳 Projet 2 — Site Cuisine (HTML / CSS)
+
+🎯 Création d’un site web statique sur un thème libre.  
+
+🔗 Dépôt :  
+👉 https://github.com/kossi-ctrl/site_cuisine_project  
+
+---
+
+### 🍽️ Projet 3 — Site Cuisine (TP JavaScript)
+
+🎯 Amélioration du site cuisine avec des fonctionnalités JavaScript.  
+
+🔗 Dépôt :  
+👉 https://github.com/kossi-ctrl/TPJavaScript_site_cuisine  
+
+---
+
+### 📚 Projet 4 — Ashesi Library
+
+🎯 Création d’une bibliothèque fictive à partir d’un fichier JSON, manipulé en JavaScript.  
+
+🔗 Dépôt :  
+👉 https://github.com/kossi-ctrl/ashesi_library_project  
+
+---
+
+### 🏛️ Projet 5 — TP Musée (Base de données)
+
+📌 Travail sur :  
+- Analyse de CSV  
+- Modélisation de base de données  
+- Export SQL  
+- Intégration PostgreSQL  
+- Requêtes SQL  
+
+🔗 Dépôt :  
+👉 https://github.com/kossi-ctrl/TP_musee  
+
+---
+
+### 📊 Projet 6 — Wired_Viz (Visualisation de données)
+
+🎯 Manipulation de JSON et visualisation dynamique en JavaScript.  
+
+🔗 Dépôt :  
+👉 https://github.com/kossi-ctrl/Wired_viz  
+
+---
+
+## 📬 Contact  
+
+📧 **Email personnel :** wisdom77toffa@gmail.com  
+📧 **Email universitaire :** kossi.zangbe@etu.univ-tours.fr  
+
+---
+
+© 2026 — **Kossi ZANGBE**
