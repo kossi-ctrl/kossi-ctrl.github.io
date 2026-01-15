@@ -24,7 +24,7 @@ Mes projets combinent souvent **programmation**, **structuration des données** 
 - **Programmation :** Python  
 - **Données :** PostgreSQL • SQL • JSON  
 - **Encodage :** XML • TEI • MEI  
-- **Outils :** Git & GitHub • VS Code  
+- **Outils :** Git & GitHub • VS Code • Spyder • JMerise • DataGrip • Oxygen Editor 
 
 ---
 
