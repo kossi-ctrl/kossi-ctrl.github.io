@@ -27,7 +27,10 @@ Création de sites web, programmation, modélisation et bases de données
      
      -Comparaison et encodage des variantes 
      
-     "https://github.com/kossi-ctrl/Encodage_tartuffe.xml.git
+     
+     [Voir l’encodage Tartuffe (XML)](https://github.com/kossi-ctrl/Encodage_tartuffe.xml)
+
+
      
    # Projet2: Site Cuisine-HTML/CSS 
 
@@ -84,7 +87,8 @@ Création de sites web, programmation, modélisation et bases de données
       Objectif : Visualisation de données.
       
       Problématique :
-        Manipulation de fichiers JSON et génération dynamique via JavaScript.
+      
+       Manipulation de fichiers JSON et génération dynamique via JavaScript.
       
       https://github.com/kossi-ctrl/Wired_viz
    
