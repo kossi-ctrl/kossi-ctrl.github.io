@@ -30,7 +30,7 @@ Création de sites web, programmation, modélisation et bases de données
      -Comparaison et encodage des variantes 
      
    **Lien vers le dépôt :**  
- https://github.com/kossi-ctrl/Encodage_tartuffe.xml
+       https://github.com/kossi-ctrl/Encodage_tartuffe.xml
 
 
      
@@ -44,7 +44,7 @@ Création de sites web, programmation, modélisation et bases de données
         avec Phoenix Code ou Visual Studio Code.
       
   **Lien vers le dépôt :**  
-https://github.com/kossi-ctrl/site_cuisine_project
+       https://github.com/kossi-ctrl/site_cuisine_project
 
    
   ### Projet3 Site Cuisine – TP JavaScript
