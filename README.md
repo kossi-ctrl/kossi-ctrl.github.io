@@ -28,7 +28,8 @@ Mes projets combinent souvent **programmation**, **structuration des données** 
 - **Programmation :** Python  
 - **Données :** PostgreSQL • SQL • JSON  
 - **Encodage :** XML • TEI • MEI  
-- **Outils :** Git & GitHub • VS Code • Spyder • JMerise • DataGrip • Oxygen Editor 
+- **Outils :** Git & GitHub • VS Code • Spyder • JMerise • DataGrip • Oxygen Editor
+  
 
 ---
 
@@ -90,12 +91,7 @@ Encoder le texte de *Tartuffe* en TEI.
 
 ---
 
-### 📊 Projet 6 — Wired_Viz (Visualisation de données)
-
-🎯 Manipulation de JSON et visualisation dynamique en JavaScript.  
-
-🔗 Dépôt :  
-👉 https://github.com/kossi-ctrl/Wired_viz  
+### Projet Wave
 
 ---
 
