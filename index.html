@@ -3,135 +3,318 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio – Kossi ZANGBE</title>
+  <title>Kossi ZANGBE — Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- ===== NAVBAR ===== -->
-  <nav style="
-    background:#2c3e50;
-    padding:15px 20px;
-    position:sticky;
-    top:0;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-  ">
-    <strong style="color:white">Kossi ZANGBE</strong>
-    <div>
-      <a href="#about" style="color:white;margin-right:15px;">À propos</a>
-      <a href="#skills" style="color:white;margin-right:15px;">Compétences</a>
-      <a href="#projects" style="color:white;margin-right:15px;">Projets</a>
-      <a href="#contact" style="color:white;">Contact</a>
+  <nav class="navbar">
+    <span class="navbar-brand">KZ</span>
+    <div class="navbar-links">
+      <a href="#about" data-fr="À propos" data-en="About">À propos</a>
+      <a href="#skills" data-fr="Compétences" data-en="Skills">Compétences</a>
+      <a href="#projects" data-fr="Projets" data-en="Projects">Projets</a>
+      <a href="#contact" data-fr="Contact" data-en="Contact">Contact</a>
+    </div>
+    <div class="navbar-right">
+      <button class="lang-btn" id="langBtn" onclick="toggleLang()">EN</button>
+      <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.navbar-links').classList.toggle('open')">☰</button>
     </div>
   </nav>
 
-  <!-- ===== HEADER ===== -->
-  <header>
-    <h1>Kossi ZANGBE</h1>
-    <p class="subtitle">
-      Étudiant en Humanités Numériques — Informatique  
-      <br> Université de Tours
-    </p>
+  <header class="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="dot"></span>
+        <span data-fr="Intelligence des Données · Université de Tours · CESR"
+              data-en="Data Intelligence · University of Tours · CESR">
+          Intelligence des Données · Université de Tours · CESR
+        </span>
+      </div>
+      <h1>Kossi<br><em>ZANGBE</em></h1>
+      <p class="hero-desc">
+        <span data-fr="Étudiant en Intelligence des Données au CESR, je construis des applications data-driven combinant bases de données, API et visualisations interactives."
+              data-en="Web developer passionate about data, visualization and digital culture. I build applications at the intersection of computer science and the humanities.">
+          Développeur web passionné par la donnée, la visualisation et la culture numérique.
+          Je construis des applications à la croisée de l'informatique et des humanités.
+        </span>
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary"
+           data-fr="Voir mes projets" data-en="View my projects">Voir mes projets</a>
+        <a href="cv_kossi_zangbe.pdf" download class="btn-ghost"
+           data-fr="Télécharger mon CV ↓" data-en="Download CV ↓">Télécharger mon CV ↓</a>
+        <a href="https://github.com/kossi-ctrl" target="_blank" class="btn-ghost">GitHub ↗</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orbit o1"><div class="orb-dot"></div></div>
+      <div class="orbit o2"><div class="orb-dot"></div></div>
+      <div class="orbit o3"><div class="orb-dot"></div></div>
+      <div class="hero-initials">KZ</div>
+    </div>
   </header>
 
   <main>
 
-    <!-- ===== À PROPOS ===== -->
-    <section id="about">
-      <h2>À propos</h2>
-      <p>
-        Étudiant en Humanités Numériques, je m’intéresse à l’analyse de textes,
-        au développement web, à la structuration des données et à leur visualisation.
-        Mes projets combinent souvent programmation, modélisation et culture numérique.
-      </p>
+    <section id="about" class="section fade-in">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 data-fr="À propos" data-en="About">À propos</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            <span data-fr="Étudiant en <strong>Intelligence des Données</strong> au CESR de l'Université de Tours, je travaille à la croisée de l'analyse de textes et de données culturelles, du développement web full-stack, et de la visualisation interactive de données."
+                  data-en="Student in <strong>Data Intelligence</strong> at the CESR, University of Tours, I work at the intersection of cultural text analysis, full-stack web development, and interactive data visualization.">
+              Étudiant en <strong>Intelligence des Données</strong> au CESR de l'Université de Tours, je travaille à la croisée de l'analyse de textes et de données culturelles, du développement web full-stack, et de la visualisation interactive de données.
+            </span>
+          </p>
+          <p>
+            <span data-fr="Mes projets combinent <strong>programmation</strong>, <strong>structuration des données</strong> et <strong>visualisation</strong>, avec une attention particulière aux corpus littéraires et journalistiques."
+                  data-en="My projects combine <strong>programming</strong>, <strong>data modeling</strong> and <strong>visualization</strong>, with a particular focus on literary and journalistic corpora.">
+              Mes projets combinent <strong>programmation</strong>, <strong>structuration des données</strong> et <strong>visualisation</strong>, avec une attention particulière aux corpus littéraires et journalistiques.
+            </span>
+          </p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-n">7+</span>
+            <span class="stat-l" data-fr="Projets" data-en="Projects">Projets</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-n">10+</span>
+            <span class="stat-l" data-fr="Technologies" data-en="Technologies">Technologies</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-n">CESR</span>
+            <span class="stat-l" data-fr="Université de Tours" data-en="University of Tours">Université de Tours</span>
+          </div>
+          <div class="stat-card accent-card">
+            <span class="stat-n">2026</span>
+            <span class="stat-l" data-fr="Diplôme" data-en="Graduation">Diplôme</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- ===== COMPÉTENCES ===== -->
-    <section id="skills">
-      <h2>Compétences</h2>
-      <ul class="skills">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Git & GitHub</li>
-        <li>XML TEI / MEI</li>
-        <li>PostgreSQL</li>
-        <li>SQL</li>
-      </ul>
+    <section id="skills" class="section fade-in">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 data-fr="Compétences" data-en="Skills">Compétences</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <div class="skill-icon">⟨/⟩</div>
+          <h4 data-fr="Langages & Web" data-en="Languages & Web">Langages & Web</h4>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <div class="skill-icon">⚙</div>
+          <h4 data-fr="Frameworks & Outils" data-en="Frameworks & Tools">Frameworks & Outils</h4>
+          <div class="tags">
+            <span>Django</span><span>Django REST Framework</span><span>ECharts</span><span>Bootstrap</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <div class="skill-icon">◎</div>
+          <h4 data-fr="Données & Bases" data-en="Data & Databases">Données & Bases</h4>
+          <div class="tags">
+            <span>PostgreSQL</span><span>JSON</span><span>XML</span><span>TEI</span><span>MEI</span>
+          </div>
+        </div>
+        <div class="skill-block">
+          <div class="skill-icon">⊞</div>
+          <h4 data-fr="DevOps & Env." data-en="DevOps & Env.">DevOps & Env.</h4>
+          <div class="tags">
+            <span>Git</span><span>GitHub</span><span>GitLab CI</span><span>Railway</span><span>Cloudinary</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- ===== PROJETS ===== -->
-    <section id="projects">
-      <h2>Projets</h2>
+    <section id="projects" class="section fade-in">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 data-fr="Projets" data-en="Projects">Projets</h2>
+      </div>
+      <div class="projects-grid">
 
-      <div class="projects">
+        <article class="project-card project-featured">
+          <div class="project-badge"
+               data-fr="Projet phare · 2025–2026"
+               data-en="Featured project · 2025–2026">Projet phare · 2025–2026</div>
+          <h3>Wave — Wired Archive of Visual Exploration</h3>
+          <p>
+            <span data-fr="Application web permettant d'explorer et de visualiser un corpus d'articles du magazine <em>Wired</em> (1993–2025). Network graph des co-occurrences, radial chart des keywords, heatmap des auteurs, exploration des couvertures par couleur dominante."
+                  data-en="Web application to explore and visualize a corpus of <em>Wired</em> magazine articles (1993–2025). Co-occurrence network graph, keyword radial chart, author heatmap, cover exploration by dominant color.">
+              Application web permettant d'explorer et de visualiser un corpus d'articles du magazine <em>Wired</em> (1993–2025). Network graph des co-occurrences, radial chart des keywords, heatmap des auteurs, exploration des couvertures par couleur dominante.
+            </span>
+          </p>
+          <div class="project-stack">
+            <span>Python</span><span>Django</span><span>PostgreSQL</span><span>ECharts</span><span>Railway</span><span>Cloudinary</span>
+          </div>
+          <div class="project-links">
+            <a href="https://wave-production-abb3.up.railway.app" target="_blank" class="link-primary"
+               data-fr="Application live ↗" data-en="Live app ↗">Application live ↗</a>
+            <a href="https://github.com/kossi-ctrl/Wave" target="_blank" class="link-ghost">GitHub</a>
+          </div>
+        </article>
 
-        <article>
+        <article class="project-card">
+          <div class="project-num">02</div>
           <h3>Encodage TEI — Tartuffe</h3>
-          <p>Encodage du texte de Molière en XML-TEI.</p>
-          <a href="https://github.com/kossi-ctrl/Encodage_tartuffe.xml" target="_blank">
-            Voir le projet
-          </a>
+          <p>
+            <span data-fr="Encodage du texte de Molière en XML-TEI : métadonnées, extraction, variantes."
+                  data-en="TEI encoding of Molière's Tartuffe: metadata, text extraction, variant comparison.">
+              Encodage du texte de Molière en XML-TEI : métadonnées, extraction, variantes.
+            </span>
+          </p>
+          <div class="project-stack"><span>XML</span><span>TEI</span></div>
+          <a href="https://github.com/kossi-ctrl/Encodage_tartuffe.xml" target="_blank" class="link-ghost"
+             data-fr="Voir →" data-en="View →">Voir →</a>
         </article>
 
-        <article>
+        <article class="project-card">
+          <div class="project-num">03</div>
           <h3>Site Cuisine (HTML/CSS)</h3>
-          <p>Création d’un site web statique sur la cuisine.</p>
-          <a href="https://github.com/kossi-ctrl/site_cuisine_project" target="_blank">
-            Voir le projet
-          </a>
+          <p>
+            <span data-fr="Site web statique sur un thème libre, avec mise en page responsive."
+                  data-en="Static website on a free theme, with responsive layout.">
+              Site web statique sur un thème libre, avec mise en page responsive.
+            </span>
+          </p>
+          <div class="project-stack"><span>HTML</span><span>CSS</span></div>
+          <a href="https://kossi-ctrl.github.io/site_cuisine_project" target="_blank" class="link-ghost"
+             data-fr="Voir →" data-en="View →">Voir →</a>
         </article>
 
-        <article>
+        <article class="project-card">
+          <div class="project-num">04</div>
           <h3>Site Cuisine (JavaScript)</h3>
-          <p>Ajout de fonctionnalités interactives.</p>
-          <a href="https://github.com/kossi-ctrl/TPJavaScript_site_cuisine" target="_blank">
-            Voir le projet
-          </a>
+          <p>
+            <span data-fr="Fonctionnalités interactives ajoutées au site cuisine."
+                  data-en="Interactive features added to the food website.">
+              Fonctionnalités interactives ajoutées au site cuisine.
+            </span>
+          </p>
+          <div class="project-stack"><span>JavaScript</span></div>
+          <a href="https://kossi-ctrl.github.io/TPJavaScript_site_cuisine" target="_blank" class="link-ghost"
+             data-fr="Voir →" data-en="View →">Voir →</a>
         </article>
 
-        <article>
+        <article class="project-card">
+          <div class="project-num">05</div>
           <h3>Ashesi Library</h3>
-          <p>Bibliothèque fictive basée sur JSON.</p>
-          <a href="https://github.com/kossi-ctrl/ashesi_library_project" target="_blank">
-            Voir le projet
-          </a>
+          <p>
+            <span data-fr="Bibliothèque fictive construite à partir d'un fichier JSON, manipulé en JavaScript."
+                  data-en="Fictional library built from a JSON file, manipulated in JavaScript.">
+              Bibliothèque fictive construite à partir d'un fichier JSON, manipulé en JavaScript.
+            </span>
+          </p>
+          <div class="project-stack"><span>JavaScript</span><span>JSON</span></div>
+          <a href="https://kossi-ctrl.github.io/ashesi_library_project" target="_blank" class="link-ghost"
+             data-fr="Voir →" data-en="View →">Voir →</a>
         </article>
 
-        <article>
-          <h3>TP Musée (Base de données)</h3>
-          <p>Modélisation et requêtes SQL.</p>
-          <a href="https://github.com/kossi-ctrl/TP_musee" target="_blank">
-            Voir le projet
-          </a>
-        </article>
-
-        <article>
-          <h3>Wired_Viz</h3>
-          <p>Visualisation de données en JavaScript.</p>
-          <a href="https://github.com/kossi-ctrl/Wired_viz" target="_blank">
-            Voir le projet
-          </a>
+        <article class="project-card">
+          <div class="project-num">06</div>
+          <h3>TP Musée</h3>
+          <p>
+            <span data-fr="Analyse CSV, modélisation MCD/MLD, export SQL, intégration PostgreSQL et requêtes avancées."
+                  data-en="CSV analysis, entity-relationship modeling, SQL export, PostgreSQL integration and advanced queries.">
+              Analyse CSV, modélisation MCD/MLD, export SQL, intégration PostgreSQL et requêtes avancées.
+            </span>
+          </p>
+          <div class="project-stack"><span>SQL</span><span>PostgreSQL</span></div>
+          <a href="https://github.com/kossi-ctrl/TP_musee" target="_blank" class="link-ghost"
+             data-fr="Voir →" data-en="View →">Voir →</a>
         </article>
 
       </div>
     </section>
 
-    <!-- ===== CONTACT ===== -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>📧 Email personnel : <strong>wisdom77toffa@gmail.com</strong></p>
-      <p>📧 Email universitaire : <strong>kossi.zangbe@etu.univ-tours.fr</strong></p>
+    <section id="contact" class="section fade-in">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 data-fr="Contact" data-en="Contact">Contact</h2>
+      </div>
+      <p class="contact-intro"
+         data-fr="Disponible pour des projets, stages ou collaborations en humanités numériques et développement web."
+         data-en="Available for projects, internships or collaborations in digital humanities and web development.">
+        Disponible pour des projets, stages ou collaborations en humanités numériques et développement web.
+      </p>
+      <div class="contact-grid">
+        <a href="mailto:wisdom77toffa@gmail.com" class="contact-card">
+          <div class="contact-icon">✉</div>
+          <div>
+            <div class="contact-type" data-fr="Email personnel" data-en="Personal email">Email personnel</div>
+            <div class="contact-val">wisdom77toffa@gmail.com</div>
+          </div>
+        </a>
+        <a href="mailto:kossi.zangbe@etu.univ-tours.fr" class="contact-card">
+          <div class="contact-icon">🎓</div>
+          <div>
+            <div class="contact-type" data-fr="Email universitaire" data-en="University email">Email universitaire</div>
+            <div class="contact-val">kossi.zangbe@etu.univ-tours.fr</div>
+          </div>
+        </a>
+        <a href="https://github.com/kossi-ctrl" target="_blank" class="contact-card">
+          <div class="contact-icon">⌥</div>
+          <div>
+            <div class="contact-type">GitHub</div>
+            <div class="contact-val">kossi-ctrl</div>
+          </div>
+        </a>
+      </div>
     </section>
 
   </main>
 
-  <footer>
-    © 2026 — Kossi ZANGBE
+  <footer class="footer">
+    <span>© 2026 — Kossi ZANGBE</span>
+    <span data-fr="Intelligence des Données · Université de Tours · CESR"
+          data-en="Data Intelligence · University of Tours · CESR">
+      Intelligence des Données · Université de Tours · CESR
+    </span>
   </footer>
+
+  <script>
+    let currentLang = 'fr';
+
+    function toggleLang() {
+      currentLang = currentLang === 'fr' ? 'en' : 'fr';
+      const btn = document.getElementById('langBtn');
+      btn.textContent = currentLang === 'fr' ? 'EN' : 'FR';
+      document.documentElement.lang = currentLang;
+
+      document.querySelectorAll('[data-fr][data-en]').forEach(el => {
+        const val = el.getAttribute('data-' + currentLang);
+        if (val !== null) {
+          if (el.tagName === 'A' || el.tagName === 'BUTTON' || el.tagName === 'H2' || el.tagName === 'DIV' || el.tagName === 'P' || el.tagName === 'SPAN') {
+            el.innerHTML = val;
+          }
+        }
+      });
+    }
+
+    const navLinks = document.querySelectorAll('.navbar-links a');
+    const sections = document.querySelectorAll('section[id]');
+    window.addEventListener('scroll', () => {
+      let cur = '';
+      sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) cur = s.id; });
+      navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + cur));
+    });
+
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.fade-in, .project-card, .skill-block, .contact-card, .stat-card').forEach(el => io.observe(el));
+  </script>
 
 </body>
 </html>
