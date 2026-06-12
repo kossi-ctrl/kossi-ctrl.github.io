@@ -99,7 +99,7 @@ body {
 
 .hero h1 {
   font-family: var(--head); font-weight: 800;
-  font-size: clamp(3.2rem, 7vw, 6rem);
+  font-size: clamp(2.2rem, 4.5vw, 3.8rem);
   line-height: 0.94; letter-spacing: -2.5px;
   color: var(--text); margin-bottom: 24px;
 }
