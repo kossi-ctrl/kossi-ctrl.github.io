@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
 
 :root {
-  --bg:  #0b1120;   /* était #070c1b */
---bg2: #111828;   /* était #0c1227 */
---bg3: #161f32;   /* était #111830 */
+  --bg:     #f5f3ee;
+--bg2:    #efecea;
+--bg3:    #e8e5e0;
   --accent:  #6e9bff;
   --accent2: #e6dfc8;
-  --text:    #d8d6e6;
-  --muted:   #5a5a88;
-  --border:  rgba(110,155,255,0.09);
+  --text:   #1a1a2e;
+--muted:  #7a7a9a;
+--border: rgba(26,26,46,0.08);
   --head:    'Syne', sans-serif;
   --body:    'DM Sans', sans-serif;
 }
@@ -29,7 +29,7 @@ body {
   position: sticky; top: 0; z-index: 100;
   display: flex; justify-content: space-between; align-items: center;
   padding: 18px 56px;
-  background: rgba(11,17,32,0.94);  /* était rgba(7,12,27,0.94) */
+ background: rgba(245,243,238,0.94);
   backdrop-filter: blur(24px);
   border-bottom: 1px solid var(--border);
 }
@@ -79,7 +79,7 @@ body {
 .hero::before {
   content: '';
   position: absolute; inset: 0; pointer-events: none;
- background: rgba(11,17,32,0.98);  /* dans .navbar-links mobile */
+ background: rgba(245,243,238,0.98);  /* dans .navbar-links mobile */
 }
 .hero-content { position: relative; z-index: 2; flex: 1; max-width: 620px; }
 
