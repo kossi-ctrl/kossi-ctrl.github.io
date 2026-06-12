@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
 
 :root {
-  --bg:      #070c1b;
-  --bg2:     #0c1227;
-  --bg3:     #111830;
+  --bg:  #0b1120;   /* était #070c1b */
+--bg2: #111828;   /* était #0c1227 */
+--bg3: #161f32;   /* était #111830 */
   --accent:  #6e9bff;
   --accent2: #e6dfc8;
   --text:    #d8d6e6;
@@ -29,7 +29,7 @@ body {
   position: sticky; top: 0; z-index: 100;
   display: flex; justify-content: space-between; align-items: center;
   padding: 18px 56px;
-  background: rgba(7,12,27,0.94);
+  background: rgba(11,17,32,0.94);  /* était rgba(7,12,27,0.94) */
   backdrop-filter: blur(24px);
   border-bottom: 1px solid var(--border);
 }
@@ -79,9 +79,7 @@ body {
 .hero::before {
   content: '';
   position: absolute; inset: 0; pointer-events: none;
-  background:
-    radial-gradient(ellipse 50% 55% at 72% 48%, rgba(70,110,220,0.09) 0%, transparent 70%),
-    radial-gradient(ellipse 30% 35% at 12% 68%, rgba(230,223,200,0.04) 0%, transparent 60%);
+ background: rgba(11,17,32,0.98);  /* dans .navbar-links mobile */
 }
 .hero-content { position: relative; z-index: 2; flex: 1; max-width: 620px; }
 
